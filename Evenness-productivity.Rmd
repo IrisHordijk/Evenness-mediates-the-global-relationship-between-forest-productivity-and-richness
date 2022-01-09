@@ -318,7 +318,7 @@ fwrite(ProductivityFinal, file="NPP_24.11.2021.csv")
 
 ###Filter Biomass data on measurement year
 ```{r Filter Biomass, measurement year & outliers}
-#The code for the biomass calculations will be uploaded shortly
+#This is the link to access the code of the biomass calculations: https://github.com/LidongMo/GlobalForestBiomass.git 
 
 Biomass <- fread("~/Documents/PhD projects/Biomass/biomass_evenness_ModelInput28112019.csv")
 Biomass <- Biomass[, -c(1)]
